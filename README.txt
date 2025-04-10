@@ -9,4 +9,32 @@ This thing does what it says on the tin, it changes the names of images, and mak
 
 For refrence, this is my first major foray into python.
 
+Compatible with jpg, jpeg, png, gif, bmp, tiff
+
+
+````````````````````````````````````````````````````````````````````````````````````
+Please keep in mind that this program will not drill into any files within the input folder
+Currently you can run this program 2 ways:
+1. from source using python (req. python 3 + pillow)
+2. using the frozen version avalible through Namenail_Release
+
+
+````````````````````````
+If you're using python:
+- Download the source code
+- make sure you have a version of python 3 and pillow installed
+- place your images in the input folder
+- run Namenail.py and follow the propts
+the images will be copied and renamed into the output folder, including a subfolder in the output with the thumbnails.
+
+
+````````````````````````
+If you're using the frozen version:
+- download the latest release
+- extract the file, making sure the executable and internal files are kept in the same folder
+- place the images you want renamed into the input subfolder, located within the internal folder.
+- run the program and follow the prompts
+the images will be copied and renamed into the output subfolder, including another subfolder in the output with the thumbnails.
+
+
 ````````````````````````````````````````````````````````````````````````````````````
