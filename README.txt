@@ -18,6 +18,9 @@ Currently you can run this program 2 ways:
 1. from source using python (req. python 3 + pillow)
 2. using the frozen version avalible through Namenail_Release
 
+as of now there is only a release version avalible for Mac, sometime later today I'll add a linux version, I don't currently have access to a windows machine so I may not be able to provide a windows executable unless someone with a windows machine is willing to make a release version from the source code.
+(Atm I use auto py to exe)
+
 
 ````````````````````````
 If you're using python:
