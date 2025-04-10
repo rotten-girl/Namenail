@@ -35,11 +35,12 @@ def rename_and_move_images(base_name="image", generate_thumbs=False):
                     try:
                         with Image.open(file_path) as img:
                             img.thumbnail((200, 200))
-                            thumb_file = os.path.join(thumb_path, new_filename)
+                            thumb_filename = f"th_{new_filename}"
+                            thumb_file = os.path.join(thumb_path, thumb_filename)
                             img.save(thumb_file)
-                            print(f"-> thumbnail created: {thumb_file}")
+                            print(f":D thumbnail made: {thumb_filename}")
                     except Exception as e:
-                        print(f"!! thumbnail generation failed for {file}: {e}")
+                        print(f"D: thumbnail generation failed for {file}: {e}")
 
     if counter == 0:
         print("D: u got no images to change!") #no imgs error
