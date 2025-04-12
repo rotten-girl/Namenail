@@ -41,3 +41,6 @@ the images will be copied and renamed into the output subfolder, including anoth
 
 
 ````````````````````````````````````````````````````````````````````````````````````
+HOW TO USE THIS TOOL
+This tool was made exclusively to be used with the rest of my Character Page Toolkit, which is avalible here: https://github.com/rotten-girl/Character-Tool
+The Gallery module (once I eventually add it) will have instructions inside on how to incorporate the html output from this tool into it's code.
