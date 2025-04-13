@@ -24,20 +24,20 @@ as of now there is only a release version avalible for Mac, sometime later today
 
 ````````````````````````
 If you're using python:
-- Download the source code
-- make sure you have a version of python 3 and pillow installed
-- place your images in the input folder
-- run Namenail.py and follow the propts
-the images will be copied and renamed into the output folder, including a subfolder in the output with the thumbnails.
+Requirements:
+- python3
+- pillow
+- Jinja2
+
+The program has a (horrifically boring) gui that you can use to set where all your folders are. Once you do the thing the images will be copied and renamed into the output folder(s) you point it to.
 
 
 ````````````````````````
 If you're using the frozen version:
 - download the latest release
-- extract the file, making sure the executable and internal files are kept in the same folder
-- place the images you want renamed into the input subfolder, located within the internal folder.
-- run the program and follow the prompts
-the images will be copied and renamed into the output subfolder, including another subfolder in the output with the thumbnails.
+- extract the file
+- run the program 
+The program has a (horrifically boring) gui that you can use to set where all your folders are. Once you do the thing the images will be copied and renamed into the output folder(s) you point it to.
 
 
 ````````````````````````````````````````````````````````````````````````````````````
